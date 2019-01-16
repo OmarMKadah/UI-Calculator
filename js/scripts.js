@@ -18,17 +18,6 @@ function divide (num1, num2){
 	return num1 / num2;
 }
 
-function bmi (wgt, hgt){
-	return wgt / (hgt*hgt) * 703;
-}
-
-function tempConvert (fahrenheit) {
-	return (fahrenheit - 32) * (5/9);
-}
-
-alert (tempConvert (73))
-alert (bmi (185, 69));
-
 var num1 = parseInt(prompt("Enter a Number"));
 var num2 = parseInt(prompt("Enter a second number"));
 
